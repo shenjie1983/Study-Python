@@ -1,9 +1,19 @@
-# a = 1
-# b = 2
-# c = 3
+def damage(skill1, skill2):
+    damage1 = skill1 * 3
+    damage2 = skill2 * 2 + 10
+    # 返回一个元组tuple
+    return damage1, damage2
 
-a, b, c = 1, 2, 3
+"""
+damages = damage(3, 6)
+print(type(damages))
 
-d = 1, 2, 3
+这样获取返回结果不合适
+print(damages[0],damages[1])
 
-print(type(d))
+"""
+
+skill1_damage,skill2_damage = damage(3, 6)
+
+
+print(skill1_damage, skill2_damage)

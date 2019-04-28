@@ -1,10 +1,29 @@
-def damage(skill1, skill2):
-    damage1 = skill1 * 3
-    damage2 = skill2 * 2 + 10
-    return damage1, damage2
+""" 
+1.parameter_list参数列表可以没有
+2.return value
+3.如果没有return，则默认返回None
 
-# damages = damage(3, 6)
-skill1_damage,skill2_damage = damage(3, 6)
-# print(damages[0],damages[1])
-# print(type(damages))
-print(skill1_damage, skill2_damage)
+def funcname(parameter_list):
+    pass
+
+"""
+
+# 1.实现两个数字的相加
+# 2.打印输入的参数
+
+# import sys
+# sys.setrecursionlimit(1000)
+
+def add(x, y):
+    result = x + y
+    return result
+
+def print_code(code):
+    print(code)
+    # 注释return code 后返回None
+    return code
+
+a =  add(1,2)
+b = print_code('result')
+
+print(a, b)
