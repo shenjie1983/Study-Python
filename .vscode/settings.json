@@ -1,0 +1,4 @@
+{
+    "python.linting.pylintPath": "D:/Program Files/Python37/Scripts/pylint",
+    "python.linting.pylintUseMinimalCheckers": false
+}
