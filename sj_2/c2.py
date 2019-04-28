@@ -14,7 +14,9 @@ def funcname(parameter_list):
 # import sys
 # sys.setrecursionlimit(1000)
 
+# 必须参数，必须传递，否则报错
 def add(x, y):
+    # 形式参数，形参
     result = x + y
     return result
 
@@ -23,7 +25,7 @@ def print_code(code):
     # 注释return code 后返回None
     return code
 
-a =  add(1,2)
+a =  add(1,2) # 实际参数，实参
 b = print_code('result')
 
 print(a, b)

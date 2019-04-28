@@ -12,7 +12,7 @@ print(type(damages))
 print(damages[0],damages[1])
 
 """
-
+# 序列解包
 skill1_damage,skill2_damage = damage(3, 6)
 
 
