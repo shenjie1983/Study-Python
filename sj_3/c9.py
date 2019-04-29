@@ -7,5 +7,6 @@ class Human():
     def get_name(self):
         print(self.name)
 
-
+    def do_homework(self):
+        print('This is a parent method')
 
