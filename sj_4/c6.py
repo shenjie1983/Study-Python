@@ -2,7 +2,9 @@ import re
 # 数量词
 # * 匹配0次或者无线多次
 # + 匹配1次或者无数多次
-# ？匹配0次或者1次
+# ？匹配0次或者1次，
+# ？例子：pythonn？，显示python，并不是想象中的非贪婪，
+# 加？非贪婪是在前面有区间的情况下
 
 s = 'python 11\t11java&678p\nh\rp'
 # r = re.findall('[a-z][a-z]', s)
@@ -15,6 +17,7 @@ sr2 = re.findall('[a-z]{3,6}?', s)
 # print(sr1)
 
 a = 'pytho0python1pythonn2'
+
 
 ar1 = re.findall('python?', a)
 ar2 = re.findall('python{1,2}', a)
