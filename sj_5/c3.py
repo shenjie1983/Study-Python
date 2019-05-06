@@ -18,5 +18,6 @@ print(VIP['GREEN'])
 
 # 枚举类型、枚举的名字、枚举的值
 
+# 可以便利操作
 for v in VIP:
     print(v)
