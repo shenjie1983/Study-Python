@@ -4,6 +4,8 @@ from enum import Enum
 
 class VIP(Enum):
     YELLOW = 1
+    # 别名
+    YELLOW_ALIAS = 1
     GREEN = 2
     BLACK = 3
     RED = 4
