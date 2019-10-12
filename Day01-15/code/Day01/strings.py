@@ -1,10 +1,10 @@
 '''
-@Descripttion: 
+@Descripttion:字符串的常用操作 
 @version: 0.1
 @Author: 沈洁
 @Date: 2019-09-19 09:38:50
 @LastEditors: 沈洁
-@LastEditTime: 2019-09-19 09:46:12
+@LastEditTime: 2019-10-12 10:41:02
 '''
 
 str1 = 'hello, world!'
