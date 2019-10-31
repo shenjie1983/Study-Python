@@ -1,5 +1,5 @@
 '''
-@Descripttion: 
+@Descripttion:输入0-100中的一个数字\n然后查看是否与电脑一样
 @version: 0.1
 @Author: 沈洁
 @Date: 2019-09-23 12:34:57
